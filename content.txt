@@ -1,37 +1,63 @@
-Header / nav:
-Home
-Essay
-Gallery
 
 
-Main heading/page title: Midnight in the City
-Subtitle: A visual essay on silence, light, and movement after dark.
+Required Page Structure
+Your HTML page must include the following:
+
+Header 
+Navigation with links: Home, Essay, Gallery
+Main Content
+Hero Section
+Page title, subtitle, and hero image
+Section: The City Changes
+Section heading, paragraphs, and blockquote
+Section: The People
+Section heading, paragraphs, subheadings for wanderers and Observations After Midnight, and list
+Section: After Hours
+Section heading and paragraphs
+Footer
+Footer text
 
 
-Section 1: The City Changes
-- The city softens at night. Shadows stretch, streetlights hum, and windows glow like quiet beacons.
-- Reflections shimmer on rain-slick pavement. The hum of distant traffic becomes a lullaby for those awake.
-- “Cities have their own heartbeat after midnight.”
+
+Design Specifications
+Base Styles
+Body: margin 0, font family: 'Montserrat', sans-serif, background color #0b0f1a, text color #f4f4f4, line height 1.6 
+Navigation Styling
+Nav: center alignment, margin-top 40px
+Links (default): font size 14px, text color #c6a85b, text transformed to uppercase, margin-left 20px, margin-right 20px, text-decoration none, letter spacing of 2px 
+Links (hover state): text-decoration set to underline, text color #9aa0a6 
+Typography Rules
+h1: font family 'Cormorant Garamond', font size 64px, #c6a85b, centered, margin-top 80px, margin-bottom 20px
+h2: font family 'Cormorant Garamond', font size 36px, #c6a85b, margin-top 100px, margin-bottom 20px, letter spacing 1px
+h3: font family 'Montserrat', font size 14px, #9aa0a6, uppercase, margin-top 40px, margin-bottom 10px, letter spacing 2px
+p: font size 18px, margin-bottom 20px
+blockquote: margin top 70px, margin bottom 70px
 
 
-Section 2: The People
-- Some move with purpose, others drift without urgency. The city transforms them, and they transform it in return.
 
-Wanderers 
-- They trace the edges of light and shadow, noticing the details daylight hides.
+blockquote p: font size 24px, #c6a85b, italic, centered,
+ul: margin top 20px, margin bottom 40px
+li: font size 18px, margin bottom 12px
 
-Observations After Midnight:
-  • Flickering neon reflected on wet sidewalks
-  • Steam rising from subway grates
-  • Quiet windows glowing in high-rise apartments
-
-- Each moment is a fragment of the city’s nocturnal story — ephemeral, delicate, and luminous.
+Hero Section
+Page title (h1) styled under typography rules
+Subtitle font: font size 20px, #9aa0a6
+Hero image: width 100%
 
 
-Section 3: After Hours
-- The night does not hide the city. It reveals layers invisible in daylight. Every shadow, every light, every reflection becomes a story.
-- Traffic slows, the air hums with quiet energy. Alleyways whisper of journeys begun and journeys paused. The city is both still and alive.
-- When morning returns, it does not erase the night. It layers another narrative on top, but the echoes remain for those who listen.
 
 
-Footer: © 2026 All rights reserved
+Additional Sections
+All section elements: padding left 60px, padding-right 60px
+Footer
+footer: font size 14px, text centered, padding top 50px, padding bottom 50px, margin top 100px, background color #000 (black)
+Additional CSS Requirement
+You may use any selectors you prefer; however, your stylesheet must clearly demonstrate the following four types of CSS selectors:
+
+At least one HTML tag selector (example: body, h1, p)
+At least one descendant selector (example: targeting links inside nav)
+At least one class selector
+At least one ID selector
+You are not restricted to only these selectors, but all four must appear in your CSS.
+
+Failure to demonstrate all four targeting methods will result in a deduction.
